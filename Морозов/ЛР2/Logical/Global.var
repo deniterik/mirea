@@ -1,0 +1,9 @@
+VAR
+	direction : BOOL := FALSE;
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_ModuleOk : BOOL := 0;
+	speed : INT;
+END_VAR
