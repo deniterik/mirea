@@ -1,0 +1,5 @@
+VAR
+	DoorState : DoorStateMachine;
+	EVIRD : DriveStateMachine;
+	LedState : LedStateMachine;
+END_VAR
